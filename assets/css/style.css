@@ -1839,9 +1839,18 @@ body {
   color: #fff;
   font-family: "Aira Demo",sans-serif;
   margin-left: -16em;
- 
-  
-  
+}
+@media (max-width:400px){
+  #contact .php-email-form button[type=submits]{
+    margin-left:-7.9em;
+
+}
+}
+@media (max-width:400px){
+  #contact .php-email-form button[type=submitts]{
+    margin-left:-7.9em;
+
+}
 }
 
 #contact .php-email-form button[type=submit]:hover {
