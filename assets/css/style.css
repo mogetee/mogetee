@@ -426,6 +426,9 @@ h6 {
   pointer-events: none; /* Not mandatory but it ensure the video doesn't interfere with content */
   z-index: -1;
 }
+#hero video {
+  display: block;
+}
 
 @media (min-width: 1025px) {
   #hero {
