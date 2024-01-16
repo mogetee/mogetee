@@ -1,0 +1,436 @@
+#Header{
+    width: 100%;
+    height: 100vh;
+    background:  center top no-repeat;
+    background-size: cover;
+    position: relative;
+}
+:root{
+    font: 600 2.5vw/1 Consolas
+}
+#Header .title{
+    
+    color:rgb(216, 25, 25);
+    font-family:'Aira Demo', Times, serif;
+    text-align: justify;
+    margin-top: 1em;
+    margin-left: 30px;
+    
+
+}
+h2 {
+    position: relative;
+    width: max-content;
+    z-index: -1;
+    background: pink;
+  }
+h2::before {
+    position: absolute;
+    background: white;
+    z-index: 1
+  }
+  
+  h2::after {
+    position: absolute;
+    background: white;
+    z-index: 1;
+    right: 0
+  }
+  h1{
+    position: relative;
+    width: max-content;
+    z-index: -1;
+    background: rgb(249, 248, 249);
+    color:black;
+
+
+  }
+  h1::before {
+    position: absolute;
+    background:PINK;
+    content:"OTHER BACKGROUND";
+    z-index: 1;
+    right: 0;
+
+  }
+
+  h1::after{
+    position: relative;
+    background:white;
+    content:'INFORMATION';
+    z-index: 1;
+    right: 0;
+
+  }
+  
+
+  #Header .Subtitle{
+    color:rgb(7, 7, 7);
+    font-family:'Aira Demo', Times, serif;
+    text-align: justify;
+    margin-left: 30px;
+
+  }
+  .container {
+    padding: 16px;
+    font-family:'Aira Demo', Times, serif
+    
+    
+  }
+
+  input[type=text], input[type=tel], input[type=Email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  h5{
+    color:red
+  }
+  .p{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: -20;
+    font-family: 'Sunday Afternoon',sans-serif;
+    border: none;
+
+  }
+
+  #GENERAL .h2{
+    color:rgb(216, 25, 25);
+    font-family:'Aira Demo', Times, serif;
+    text-align: justify;
+    margin-top: 1em;
+    margin-left: 30px;
+    background: white;
+
+  }
+  /* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+ .img{
+    padding-top: 10px;
+    margin-top: -150px;
+    padding-left: 950px;
+    padding-bottom: 20px;
+
+
+ }
+
+ 
+@media only screen and (max-width: 700px) {
+  .container {
+      width: 90%;
+  }
+
+  #Header .title {
+      font-size:50px;
+  }
+
+  #Header .Subtitle {
+      font-size: 25px;
+  }
+
+  .p {
+      font-size: 26px;
+  }
+
+  .img {
+      padding-left: 550px;
+  }
+
+  h4{
+    font-size:40px;
+
+  }
+  #title h1 {
+    font-size:50px;
+  }
+}
+
+/* CSS styles for 480px and below */
+@media only screen and (max-width: 480px) {
+  .container {
+      width:80%;
+  }
+
+  #Header .title {
+      font-size: 50px;
+  }
+
+  #Header .Subtitle {
+      font-size:25px;
+  }
+
+  .p {
+      font-size: 24px;
+  }
+
+
+  .img {
+      padding-left: 450px;
+  }
+  body{
+    width: 150%;
+  }
+}
+/* iPhone 14 Pro Max */
+@media only screen and (min-device-width: 428px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) {
+  #Header .title {
+    font-size: 4.5vw;
+  }
+
+  #Header .Subtitle {
+    font-size: 2vw;
+  }
+
+  .p {
+    font-size: 3.5vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  #GENERAL .h2 {
+    font-size: 4.5vw;
+  }
+
+  .img {
+    padding-left: 30vw;
+  }
+}
+
+/* iPhone 12 */
+@media only screen and (min-device-width: 390px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #Header .title {
+    font-size: 4.5vw;
+  }
+
+  #Header .Subtitle {
+    font-size: 2vw;
+  }
+
+  .p {
+    font-size: 3.5vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  #GENERAL .h2 {
+    font-size: 4.5vw;
+  }
+
+  .img {
+    padding-left: 30vw;
+  }
+}
+
+/* iPhone 13 Pro Max */
+@media only screen and (min-device-width: 428px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) {
+  #Header .title {
+    font-size: 4.5vw;
+  }
+
+  #Header .Subtitle {
+    font-size: 2vw;
+  }
+
+  .p {
+    font-size: 3.5vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  #GENERAL .h2 {
+    font-size: 4.5vw;
+  }
+
+  .img {
+    padding-left: 30vw;
+  }
+}
+
+/* Samsung Galaxy Fold */
+@media only screen and (min-device-width: 215px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2.625) {
+  #Header .title {
+    font-size: 10vw;
+  }
+
+  #Header .Subtitle {
+    font-size: 5vw;
+  }
+
+  .p {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 8vw;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
+  #GENERAL .h2 {
+    font-size: 10vw;
+  }
+
+  .img {
+    padding-left: 50vw;
+  }
+}
+
+/* Tecno Mobiles */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #Header .title {
+    font-size: 5vw;
+  }
+
+  #Header .Subtitle {
+    font-size: 2.5vw;
+  }
+
+  .p {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  #GENERAL .h2 {
+    font-size: 5vw;
+  }
+
+  .img {
+    padding-left: 40vw;
+  }
+}
+
+/* Samsung Mobiles */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #Header .title {
+    font-size: 5vw;
+  }
+
+  #Header .Subtitle {
+    font-size: 2.5vw;
+  }
+
+  .p {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  #GENERAL .h2 {
+    font-size: 5vw;
+  }
+
+  .img {
+    padding-left: 40vw;
+  }
+}
+
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #Header .title {
+    font-size: 3vw;
+  }
+
+  #Header .Subtitle {
+    font-size: 1.5vw;
+  }
+
+  .p {
+    font-size: 2.5vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  h1 {
+    font-size: 4vw;
+  }
+
+  #GENERAL .h2 {
+    font-size: 3vw;
+  }
+
+  .img {
+    padding-left: 20vw;
+  }
+}
+
+/* iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  #Header .title {
+    font-size: 2vw;
+  }
+
+  #Header .Subtitle {
+    font-size: 1vw;
+  }
+
+  .p {
+    font-size: 1.5vw;
+  }
+
+  h2 {
+    font-size: 2vw;
+  }
+
+  h1 {
+    font-size: 3vw;
+  }
+
+  #GENERAL .h2 {
+    font-size: 2vw;
+  }
+
+  .img {
+    padding-left: 10vw;
+  }
+}
